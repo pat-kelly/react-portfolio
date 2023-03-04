@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Routes, Route } from 'react-router-dom'
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Resume from './pages/Resume';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Resume from './components/Resume/Resume';
+
 
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' element={<Home />} /> 
-        <Route path='/about' element={ <About /> } />
-        <Route path='/contact' element={ <Contact /> } />
-        <Route path='/projects' element={ <Projects /> } />
-        <Route path='/resume' element={ <Resume /> } />
-      </Routes>
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <Resume />
     </>
   );
 }

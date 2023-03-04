@@ -1,4 +1,3 @@
-import { NavLink as div } from 'react-router-dom';
 import styles from './Navbar.module.css'
 
 const NavBar = () =>{
@@ -8,9 +7,20 @@ const NavBar = () =>{
   }
 
   return (
-    <>
-    <div className={styles.navLink} onClick={() => handleScroll('about')}>About</div>
-    </>
+    <div className={styles.navContainer}>
+      <div className={styles.navLink} onClick={() => handleScroll('home')}>
+        Home
+      </div>
+      <div className={styles.navLink} onClick={() => handleScroll('about')}>
+        About
+      </div>
+      <div className={styles.navLink} onClick={() => handleScroll('projects')}>
+        Projects
+      </div>
+      <div className={styles.navLink} onClick={() => handleScroll('contact')}>
+        Contact
+      </div>
+    </div>
   )
 }
 

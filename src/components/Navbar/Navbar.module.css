@@ -1,3 +1,19 @@
+.navContainer{
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  position: fixed;
+  top:0;
+  width: 100vw;
+  overflow: hidden;
+  background-color: gray;
+}
+
 .navLink{
   text-decoration: none;
+}
+
+.navLink:hover{
+  cursor: pointer;
 }

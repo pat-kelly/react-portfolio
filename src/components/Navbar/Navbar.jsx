@@ -9,7 +9,7 @@ const NavBar = () =>{
 
   return (
     <>
-    <div className={styles.navLink} onClick={handleScroll}>About</div>
+    <div className={styles.navLink} onClick={() => handleScroll('about')}>About</div>
     </>
   )
 }

@@ -3,11 +3,13 @@ import styles from './Navbar.module.css'
 const NavBar = () =>{
 
   function handleScroll(linkName){
-    window.location.replace(`/#${linkName}`)
+    linkName === 'home' ? 
+      window.scrollTo(0,0)
+    : window.location.replace(`/#${linkName}`)
   }
 
   return (
-    <div className={styles.navContainer}>
+    <div id='home' className={styles.navContainer}>
       <div className={styles.navLink} onClick={() => handleScroll('home')}>
         Home
       </div>

@@ -7,10 +7,9 @@
 
 .hero{
   margin-top: 80px;
-  margin-bottom: 1000px;
   display: flex;
   justify-content: center;
-  gap: 10vw;
+  gap: 250px;
   width:100%;
 }
 
@@ -18,8 +17,8 @@
   width: 33vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-end;
+  padding-top: 50px;
 }
 
 .heroLeft h1{
@@ -27,21 +26,21 @@
 }
 
 .heroLeft :nth-child(2){
-  left: -150px;
+  left: -180px;
 }
 
 .heroLeft :last-child{
   top:20px;
-  left: 100px;
+  left: 125px;
 }
 
 .heroLeft :nth-child(2)::after{
-  content: "/";
+  content: "&";
   /* padding-left: 15px; */
   font-size: 90px;
   position: absolute;
-  transform: rotate(25deg);
-  top:-25px;
+  top:-22px;
+  left:230px;
   color: var(--leather)
 }
 
@@ -53,4 +52,5 @@
 .headShot{
   max-width: 300px;
   max-height: 300px;
+  border-radius: 10px;
 }

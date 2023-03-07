@@ -1,20 +1,26 @@
 .navContainer{
-  padding: 5vh;
+  padding: 8px 0 20px 0;
   display: flex;
   justify-content: center;
-  gap: 5vw;
+  gap: 70px;
   position: fixed;
   top:0;
   width: 100vw;
   overflow: hidden;
-  background: linear-gradient(to top,rgba(25, 74, 80,0), rgba(25, 74, 80,1))
+  background: linear-gradient(to top, rgba(0,0,0,0), var(--stormGray)35%);
+  z-index: 100;
 }
 
 .navLink{
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: 250ms;
 }
 
 .navLink:hover{
   cursor: pointer;
+  background-color: var(--linenWhite);
+  color: var(--stormGray);
 }

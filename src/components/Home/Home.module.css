@@ -6,6 +6,8 @@
 }
 
 .hero{
+  margin-top: 80px;
+  margin-bottom: 1000px;
   display: flex;
   justify-content: center;
   gap: 10vw;
@@ -17,14 +19,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
-.heroLeft p{
+.heroLeft h1{
+  font-size: 40px;
+}
+
+.heroLeft :nth-child(2){
+  left: -150px;
+}
+
+.heroLeft :last-child{
+  top:20px;
+  left: 100px;
+}
+
+.heroLeft :nth-child(2)::after{
+  content: "/";
+  /* padding-left: 15px; */
+  font-size: 90px;
+  position: absolute;
+  transform: rotate(25deg);
+  top:-25px;
+  color: var(--leather)
+}
+
+.heroLeft div{
   font-size: 22px;
+  position: relative;
 }
 
 .headShot{
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
 }

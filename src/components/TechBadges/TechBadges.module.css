@@ -17,4 +17,9 @@
 .techContainer img{
   height:40px;
   border-radius: 10px;
+  filter:grayscale(.5)
+}
+
+.techContainer img:hover{
+  filter:grayscale(0)
 }

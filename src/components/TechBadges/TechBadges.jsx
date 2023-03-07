@@ -1,6 +1,6 @@
-import styles from './About.module.css'
+import styles from './TechBadges.module.css'
 
-const About = () => {
+const TechBadges = () => {
   return ( 
     <div className={styles.sectionContainer}>
       <div className={styles.techContainer}>
@@ -23,4 +23,4 @@ const About = () => {
   );
 }
 
-export default About;
+export default TechBadges;

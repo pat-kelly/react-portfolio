@@ -10,7 +10,8 @@ const Home = () => {
           <div>Motorcycle Enthusiast</div>
         </div>
         <div className={styles.heroRight}>
-          <img className={styles.headShot} alt='patrick' src='https://i.imgur.com/izJwDia.png'></img>
+          <img className={styles.headShot} alt='patrick' src='https://i.imgur.com/izJwDia.png' title='I love taking my motorcycle on cross-contry road trips!'/>
+          {/* TODO: change this to a pretty css popup */}
         </div>
       </div>
     </div>

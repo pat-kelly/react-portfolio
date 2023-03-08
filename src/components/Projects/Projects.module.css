@@ -5,10 +5,6 @@
   justify-content: center;
 }
 
-.techLogo{
-  width:40px;
-}
-
 .projectContainer{
   width: 80%;
   display: flex;
@@ -36,29 +32,86 @@
 }
 
 .pCardInfo{
-  color: black;
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* color: white; */
   filter: brightness(1);
-  /* transform: scale(0); */
+  transform: scale(0);
   transition: 250ms;
   position: absolute;
+  gap: 10px;
+}
+
+.pCardInfo>h3{
+  margin:0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.pCardDesc{
+  font-style: italic;
+  width: 75%;
 }
 
 .projectCard:hover .pCardBG{
-  filter:blur(1px)
+  filter:blur(3px) opacity(.4) grayscale(1);
 }
 
 .projectCard:hover .pCardInfo{
-  /* transform: scale(1); */
+  transform: scale(1);
+}
+
+.badgeContainer{
+  /* background-color: rgba(0, 0, 0, .5); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 5px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:10px;
+  width: 60%;
+}
+
+.link{
+  padding:5px 10px;
+  background-color: var(--leather);
+  border-radius: 15px;
+}
+
+.linkContainer a{
+  text-decoration: none;
+  color: var(--linenWhite);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link:hover, .link:hover a{
+  background-color: var(--linenWhite);
+  color: var(--stormGray);
+}
+
+.badgeContainer *{
+  width: 40px;
+  filter:grayscale(.3)
+}
+
+.linkContainer{
+  display:flex;
+  justify-content: center;
+  gap:25px;
 }
 
 .tableTop{
   background: url('../../../public/projects/tableTop.png');
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.badgeContainer *{
-  width: 40px;
 }
 
 .recDrop{

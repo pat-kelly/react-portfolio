@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './About.module.css';
 
 const About = () => {
@@ -17,7 +18,16 @@ const About = () => {
       <div className={styles.borderElement}></div>
       <div id='contact' className={styles.connectContainer}>
         <h1>Connect With Me</h1>
-        
+        <Link 
+          to='#'
+          onClick={(e) =>{
+            window.location.href = "mailto:kelly.patj@gmail.com";
+            e.preventDefault();
+          }}
+        >
+          Email Me
+        </Link>
+        <div>**This section is under construction**</div>
       </div>
     </div>
   );

@@ -30,3 +30,20 @@
   border-bottom: 1px solid var(--leather);
   margin-top:50px;
 }
+
+.connectContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connectContainer a{
+  text-decoration: none;
+  color: var(--leather);
+}
+
+.connectContainer :last-child{
+  margin-top:15px;
+  font-size: 18px;
+  font-style: italic;
+}

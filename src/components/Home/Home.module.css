@@ -14,10 +14,10 @@
 }
 
 .heroLeft{
-  width: 33vw;
+  /* width: 33%; */
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   padding-top: 50px;
 }
 
@@ -26,23 +26,26 @@
 }
 
 .heroLeft :nth-child(2){
-  left: -180px;
+  top: 20px;
+  left: -145px;
+}
+
+.heroLeft :nth-child(3){
+  /* left: 50px; */
 }
 
 .heroLeft :last-child{
-  top: 20px;
-  left: 126px;
+  top: -30px;
+  left: 150px;
 }
 
-.heroLeft :nth-child(2)::after{
-  content: "&";
-  /* padding-left: 15px; */
-  font-size: 90px;
+/* .heroLeft :nth-child(2)::after{
+  content: url('../../../public/amp.png');
   position: absolute;
-  top:-22px;
-  left:230px;
+  top: 8px;
+  left:205px;
   color: var(--leather)
-}
+} */
 
 .heroLeft div{
   font-size: 22px;

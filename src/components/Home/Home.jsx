@@ -6,7 +6,8 @@ const Home = () => {
       <div className={styles.hero}>
         <div className={styles.heroLeft}>
           <h1>Meet Patrick</h1>
-          <div>A Full Stack Developer</div>
+          <div>Full Stack Developer</div>
+          <div><img alt='ampersand' src='amp.png' /></div>
           <div>Motorcycle Enthusiast</div>
         </div>
         <div className={styles.heroRight}>

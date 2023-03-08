@@ -3,6 +3,7 @@ import styles from './TechBadges.module.css'
 const TechBadges = () => {
   return ( 
     <div className={styles.sectionContainer}>
+      <div className={styles.borderElement}></div>
       <div className={styles.techContainer}>
         <img alt='javascript badge' src='https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E' />
         <img alt='typescript badge' src='https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white' />
@@ -19,6 +20,7 @@ const TechBadges = () => {
         <img alt='html badge' src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' />
         <img alt='postman badge' src='https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white' />
       </div>
+      <div className={styles.borderElement}></div>
     </div>
   );
 }

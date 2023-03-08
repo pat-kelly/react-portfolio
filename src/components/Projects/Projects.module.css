@@ -1,0 +1,80 @@
+.sectionContainer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.techLogo{
+  width:40px;
+}
+
+.projectContainer{
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectCard{
+  background-color: black;
+  width:42%;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.pCardBG{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius: 10px;
+  transition: 250ms;
+}
+
+.pCardInfo{
+  color: black;
+  filter: brightness(1);
+  /* transform: scale(0); */
+  transition: 250ms;
+  position: absolute;
+}
+
+.projectCard:hover .pCardBG{
+  filter:blur(1px)
+}
+
+.projectCard:hover .pCardInfo{
+  /* transform: scale(1); */
+}
+
+.tableTop{
+  background: url('../../../public/projects/tableTop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.badgeContainer *{
+  
+}
+
+.recDrop{
+  background: url('../../../public/projects/recDrop.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partStore{
+  background: url('../../../public/projects/the_parts_store_main.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nadc{
+  background: url('../../../public/projects/nadc_title.gif');
+  background-size:cover;
+  background-repeat: no-repeat;
+}

@@ -5,7 +5,28 @@
   justify-content: center;
 }
 
+.ital{
+  font-style: italic;
+  color: var(--grayBlue);
+}
+
+.aboutContainer{
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 100px;
+}
+
+.aboutRight{
+  width:500px;
+}
+
+.aboutLeft img{
+  max-width: 300px;
+}
+
 .borderElement{
   width:80%;
   border-bottom: 1px solid var(--leather);
+  margin-top:50px;
 }

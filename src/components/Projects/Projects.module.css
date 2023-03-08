@@ -131,3 +131,9 @@
   background-size:cover;
   background-repeat: no-repeat;
 }
+
+.borderElement{
+  padding-top:50px;
+  width:80%;
+  border-bottom: 1px solid var(--leather);
+}

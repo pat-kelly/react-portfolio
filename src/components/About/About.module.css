@@ -4,3 +4,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.borderElement{
+  width:80%;
+  border-bottom: 1px solid var(--leather);
+}

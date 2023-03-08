@@ -124,6 +124,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className={styles.borderElement}></div>
     </div>
   );
 }

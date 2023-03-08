@@ -5,7 +5,7 @@ const Home = () => {
     <div className={styles.sectionContainer}>
       <div className={styles.hero}>
         <div className={styles.heroLeft}>
-          <h1>Meet Patrick</h1>
+          <h1>Meet Patrick Kelly</h1>
           <div>Full Stack Developer</div>
           <div><img alt='ampersand' src='amp.png' /></div>
           <div>Motorcycle Enthusiast</div>

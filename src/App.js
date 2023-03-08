@@ -5,7 +5,7 @@ import NavBar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import TechBadges from './components/TechBadges/TechBadges';
 import Projects from './components/Projects/Projects';
-import Resume from './components/Resume/Resume';
+import About from './components/About/About';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <TechBadges />
       <Projects />
-      <Resume />
+      <About />
     </>
   );
 }

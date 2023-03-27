@@ -7,7 +7,7 @@ const About = () => {
       <h1>So who <span className={styles.ital}>is</span> Patrick?</h1>
       <div className={styles.aboutContainer}>
         <div className={styles.aboutLeft}>
-          <img alt='patrick kelly' src='https://i.imgur.com/izJwDia.png' />
+          <img className={styles.photo} alt='patrick kelly' src='portfolio_bike.jpg' />
         </div>
         <div className={styles.aboutRight}>
           <p>I'm a Full Stack Developer that recently transitioned careers from IT support to development. After graduating from General Assembly’s Software Engineering Immersive program, I am now looking to join a team of other dedicated developers.</p>

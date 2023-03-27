@@ -40,14 +40,20 @@
 .connectContainer a{
   text-decoration: none;
   color: var(--leather);
+  transition: 250ms;
 }
 
-.connectContainer :last-child{
-  margin-top:15px;
-  font-size: 18px;
-  font-style: italic;
+.connectContainer a:hover{
+  color: var(--linenWhite)
 }
 
 .photo{
   border-radius: 50px;
+}
+
+.linkContainer{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 50px;
 }

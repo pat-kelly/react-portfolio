@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 import styles from './About.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faLinkedIn }
 
 const About = () => {
   return ( 
@@ -18,16 +21,24 @@ const About = () => {
       <div className={styles.borderElement}></div>
       <div id='contact' className={styles.connectContainer}>
         <h1>Connect With Me</h1>
-        <Link 
-          to='#'
-          onClick={(e) =>{
-            window.location.href = "mailto:kelly.patj@gmail.com";
-            e.preventDefault();
-          }}
-        >
-          Email Me
-        </Link>
-        <div>**This section is under construction**</div>
+        <div className={styles.linkContainer}>
+          <Link 
+            to='#'
+            onClick={(e) =>{
+              window.location.href = "mailto:kelly.patj@gmail.com";
+              e.preventDefault();
+            }}
+            className={styles.emailLink}
+          >
+            <FontAwesomeIcon icon='envelope' size='3x'/>
+          </Link>
+          <Link to='https://www.linkedin.com/in/patrick-kelly32/'>
+            <FontAwesomeIcon icon='fa-brands fa-linkedin' size='3x'/>
+          </Link>
+          <Link to='https://github.com/pat-kelly'>
+            <FontAwesomeIcon icon='fa-brands fa-square-github' size='3x' />
+          </Link>
+        </div>
       </div>
     </div>
   );
